@@ -38,8 +38,8 @@ export async function onRequest(context) {
   let proxiedUrl;
   let watchUrl;
   if (url.hostname === 'your-custom-domain.com') {
-    proxiedUrl = `https://your-domain.ir.cdn.ir/download?data=${encodedData}`;
-    watchUrl = `https://your-domain.ir.cdn.ir/watch?data=${encodedData}`;
+    proxiedUrl = `https://edge31.398475.ir.cdn.ir/download?data=${encodedData}`;
+    watchUrl = `https://edge31.398475.ir.cdn.ir/watch?data=${encodedData}`;
   } else {
     proxiedUrl = `${url.origin}/download?data=${encodedData}`;
     watchUrl = `${url.origin}/watch?data=${encodedData}`;
