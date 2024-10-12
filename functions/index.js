@@ -175,7 +175,7 @@ export async function onRequest(context) {
       </head>
       <body>
         <div class="about">
-          <h2>About</h2>
+          <h2>bzWtNre57ooXlz</h2>
           <p>zodindex:my project</p>
         </div>
         <div class="github-star">
