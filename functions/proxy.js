@@ -37,7 +37,7 @@ export async function onRequest(context) {
   // Check the hostname and modify the links
   let proxiedUrl;
   let watchUrl;
-  if (url.hostname === 'your-custom-domain.com') {
+  if (url.hostname === 'edge31.398475.ir.cdn.ir') {
     proxiedUrl = `https://edge31.398475.ir.cdn.ir/download?data=${encodedData}`;
     watchUrl = `https://edge31.398475.ir.cdn.ir/watch?data=${encodedData}`;
   } else {
