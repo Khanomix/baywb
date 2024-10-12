@@ -7,7 +7,7 @@ export async function onRequest(context) {
         <meta name="description" content="zodindex.">
         <meta property="og:title" content="zodindex">
         <meta property="og:description" content="A Zodindex">
-        <meta property="og:url" content="Zodindex">
+        <meta property="og:url" content="https://edge31.398475.ir.cdn.ir">
         <meta property="og:type" content="website">
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
