@@ -2,6 +2,7 @@ export async function onRequest(context) {
   return new Response(`
     <html>
       <head>
+        <meta name="cdn-site-verification" content="bzWtNre57ooXlz"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Zodindex</title>
         <meta name="description" content="This website helps you encode and fasten your download links.">
