@@ -2,13 +2,12 @@ export async function onRequest(context) {
   return new Response(`
     <html>
       <head>
-        <meta name="cdn-site-verification" content="bzWtNre57ooXlz"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Zodindex</title>
-        <meta name="description" content="This website helps you encode and fasten your download links.">
-        <meta property="og:title" content="CF Web Proxy">
-        <meta property="og:description" content="A web proxy solution built on Cloudflare Network">
-        <meta property="og:url" content="https://cf-web-proxy.pages.dev">
+        <meta name="description" content="zodindex.">
+        <meta property="og:title" content="zodindex">
+        <meta property="og:description" content="A Zodindex">
+        <meta property="og:url" content="Zodindex">
         <meta property="og:type" content="website">
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
@@ -176,7 +175,7 @@ export async function onRequest(context) {
       </head>
       <body>
         <div class="about">
-          <h2>bzWtNre57ooXlz</h2>
+          <h2>Zodindex</h2>
           <p>zodindex:my project</p>
         </div>
         <div class="github-star">
