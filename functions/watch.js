@@ -4,9 +4,6 @@ export async function onRequest(context) {
   const searchParams = url.searchParams;
   const encodedData = searchParams.get('data');
 
-  if (!encodedData) {
-    return new Response('Data parameter is missing', { status: 400 });
-  }
 
   try {
     const { url: decodedUrl } = JSON.parse(atob(encodedData));
