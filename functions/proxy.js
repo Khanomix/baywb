@@ -3,10 +3,6 @@ export async function onRequest(context) {
   const url = new URL(request.url);
   const searchParams = url.searchParams;
 
-  let originalUrl = searchParams.get('url');
-  if (!originalUrl) {
-    return new Response('URL parameter is missing', { status: 400 });
-  }
 
   if (!/^https?:\/\//i.test(originalUrl)) {
     originalUrl = 'http://' + originalUrl;
@@ -15,7 +11,7 @@ export async function onRequest(context) {
   // Fetch the blacklist from a remote text file
   let blockedDomains = [];
   try {
-    const response = await fetch('https://raw.githubusercontent.com/MinitorMHS/CF_Web_Proxy/main/Functions/blacklist.txt');
+    const response = await fetch('');
     if (response.ok) {
       const blacklistContent = await response.text();
       blockedDomains = blacklistContent.split('\n').filter(domain => domain.trim() !== '');
